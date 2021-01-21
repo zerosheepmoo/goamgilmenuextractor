@@ -3557,7 +3557,7 @@ let data = {
                         EN: 'Croque Monsieur'
                     },
                     price: {
-                        dessert: 5300
+                        dessert: 4800
                     },
                     menuOptions: {
 
@@ -3837,13 +3837,20 @@ let data = {
                 },
                 {
                     name: {
-                        KR: '베이글',
-                        EN: 'Bagel'
+                        KR: '베이글+크림치즈',
+                        EN: 'Bagel+Cream Cheese'
                     },
                     price: {
                         dessert: 3500
                     },
                     menuOptions: {
+                        extra: [
+                            {
+                                KR: '크림치즈 추가',
+                                EN: 'Add Cream Cheese',
+                                price: 1000
+                            }
+                        ],
                         type: [
                             {
                                 KR: '플레인',
@@ -3854,7 +3861,7 @@ let data = {
                                 EN: 'Onion'
                             },
                             {
-                                KR: '치즈',
+                                KR: '치즈(3800원 / 옆은 추가 300원이라는 뜻)',
                                 EN: 'Cheese',
                                 price: 300
                             },
