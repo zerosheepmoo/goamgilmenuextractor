@@ -1,0 +1,92 @@
+.sulmyoung {
+    text-align: center;
+}
+.con-name1 {
+    background-color: aliceblue;
+    display: block;
+    font-size: 40px;
+}
+/* .con-inner1 {
+    background-color: aqua;
+    display: block; 
+} */
+.con-name2 {
+    display: block;
+}
+.con-inner2 {
+    background-color: rgb(226, 255, 254);
+    width: 100%;
+}
+.column {
+    font-size: 26px;
+    
+}
+
+.items {
+    overflow: scroll;
+    background-color: rgb(220, 255, 217);
+    font-size: 17px;
+    text-align: center;
+}
+
+.item-container {
+    display: table-cell;
+    padding: 10px;
+    /* height: 100px; */
+}
+.item-container:hover {
+    background-color: rgba(222, 222, 222, 50%);
+    cursor: pointer;
+    display: table-cell;
+}
+
+.opt-con {
+    position: relative;
+}
+
+.extra {
+    padding: 10px 0px;
+}
+.extra:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+.price-con {
+    padding: 10px 0px;
+}
+.price-con:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+.size-up {
+    /* position: absolute;;
+    right: 0px;
+    bottom: -20px; */
+}
+.size-up:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+.taste {
+    padding: 10px 0px;
+}
+
+.taste:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+.type {
+    padding: 10px 0px;
+}    
+
+.type:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+.candle {
+    padding: 10px 0px;
+}    
+
+.candle:hover {
+    background-color: rgba(100, 100, 100, 50%);
+}
