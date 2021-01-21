@@ -3150,14 +3150,23 @@ let data = {
                 },
                 {
                     name: {
-                        KR: '리코타치즈 샐러드',
-                        EN: 'Ricotta Cheese Salad'
+                        KR: '고암길 샐러드',
+                        EN: 'Goamgil Salad'
                     },
                     price: {
                         meal: 8900
                     },
                     menuOptions: {
-                        
+                        type: [
+                            {
+                                KR: '케이준',
+                                EN: 'Cajun'
+                            },
+                            {
+                                KR: '리코타치즈',
+                                EN: 'Ricotta Cheese'
+                            }
+                        ]
                     },
                     picture: {
                         meal: true
@@ -3166,7 +3175,8 @@ let data = {
                     status: {
                         
                     },
-                    delivery: true
+                    delivery: true,
+                    packing: 500
                 },
                 {
                     name: {
