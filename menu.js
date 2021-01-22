@@ -2871,18 +2871,7 @@ let data = {
                     },
                     menuOptions: {
                         taste: [
-                            {
-                                KR: '딸기',
-                                EN: 'Strawberry'
-                            },
-                            {
-                                KR: '블루베리',
-                                EN: 'Blueberry'
-                            },
-                            {
-                                KR: '트리플베리',
-                                EN: 'Tripleberry'
-                            },
+                            
                         ],
                         cup: [
                             {
@@ -2914,7 +2903,7 @@ let data = {
                 EN: 'Shaved Ice'
             },
 
-            delivery: false,
+            delivery: true,
             items: [
                 {
                     name: {
