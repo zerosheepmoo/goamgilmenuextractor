@@ -1,20 +1,21 @@
 .sulmyoung {
     text-align: center;
+    font-family: TmoneyRoundWindExtraBold;
 }
 .con-name1 {
-    background-color: aliceblue;
+    background-color: rgb(231, 243, 255);
     display: block;
     font-size: 40px;
+    font-family: TmoneyRoundWindRegular;
 }
-/* .con-inner1 {
-    background-color: aqua;
-    display: block; 
-} */
+.con-inner1 {
+    font-family: TmoneyRoundWindRegular
+}
 .con-name2 {
     display: block;
 }
 .con-inner2 {
-    background-color: rgb(226, 255, 254);
+    background-color: rgb(228, 255, 255);
     width: 100%;
 }
 .column {
@@ -24,7 +25,7 @@
 
 .items {
     overflow: scroll;
-    background-color: rgb(220, 255, 217);
+    background-color: rgb(249, 255, 248);
     font-size: 17px;
     text-align: center;
 }
@@ -89,4 +90,135 @@
 
 .candle:hover {
     background-color: rgba(100, 100, 100, 50%);
+}
+
+.sulmyoung {
+    
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#show-log {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Jal_Onuel';
+    margin: 10px;;
+    background-color: #222222;
+    color: rgb(245, 245, 245);
+}
+
+#show-log:hover {
+    cursor: pointer;
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+#show-menu {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Jal_Onuel';
+    margin: 10px;;
+    background-color: #222222;
+    color: rgb(245, 245, 245);
+}
+
+#show-menu:hover {
+    cursor: pointer;
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+#show-doum {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Jal_Onuel';
+    margin: 10px;;
+    background-color: #222222;
+    color: rgb(245, 245, 245);
+}
+
+#show-doum:hover {
+    cursor: pointer;
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+#to-menu-manage {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Jal_Onuel';
+    margin: 10px;;
+    background-color: #7a0000;
+    color: rgb(245, 245, 245);
+}
+
+#to-menu-manage:hover {
+    cursor: pointer;
+    background-color: rgba(100, 100, 100, 50%);
+}
+
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.recent-added-week {
+    background-color: rgb(226, 227, 247) !important;
+}
+
+.recent-added-three {
+    background-color: rgb(255, 177, 255) !important;
+}
+
+.recent-added-yesterday {
+    background-color: rgb(214, 52, 52) !important;
+    color: rgb(241, 241, 241);
+}
+
+.inner-text-memo {
+    overflow: scroll;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(54, 54, 54, 80%);
+    z-index: 1;
+    font-size: 2.5em;
+    color: aliceblue;
+    font-family: TmoneyRoundWindRegular;
+    padding: 5%;
+}
+.inner-text-memo:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+.log-item-container {
+    list-style: inside;
+    text-align: left;
+}
+
+.item-caution {
+    background-color: rgb(255, 255, 107);
 }

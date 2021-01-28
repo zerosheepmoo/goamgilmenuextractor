@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>메뉴추출기-배달뷰</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id='text-memo'></div>
     <div class='sulmyoung'>
         <h1>배달업체 제출용 메뉴표</h1>
-        하단의 품목들은 모두 배달 가능 품목입니다.<br>
-        메뉴아이템 위(초록색 배경)에서 좌우로 스크롤하면 더 많은 메뉴들이 있습니다.<br>
-        화면을 구성한 데이터를 찾고계시다면
-        <a href="https://github.com/zerosheepmoo/goamgilmenuextractor">원본자료 다운로드</a> 를 참고해주세요.
-
-        <br><br>
+        <p>
+            하단의 품목들은 모두 배달 가능 품목입니다.<br>
+            메뉴아이템 위(초록색 배경)에서 좌우로 스크롤하면 더 많은 메뉴들이 있습니다.<br>
+            Ctrl + F 를 통해 더욱 쉽게 찾을 수 있습니다.
+        </p>
+        <div id='mex-toolbar'>
+            <div id="show-log">수정내역보기</div>
+            <div id="show-menu">메뉴목록보기</div>
+            <div id="show-doum">도움말</div>
+            <div id="to-menu-manage">메뉴관리팀 분들께</div>
+        </div>
     </div>
     <script src="./dist/bundle.js"></script>
     <script src="./menu.js"></script>

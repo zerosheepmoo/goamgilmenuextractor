@@ -9,6 +9,7 @@
  * packing: 포장비
  * soldOut: 품절
  * takeOutOnly: 매장주문에 포함되지않음
+ * wronglyRegistered: 배달어플에서 잘못등록함
  * 
  */
 /**
@@ -28,6 +29,14 @@ let data = {
             // 해당 메뉴아이템들
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '에스프레소',
                         EN: 'Espresso'
@@ -63,6 +72,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '아메리카노',
                         EN: 'Americano'
@@ -111,6 +128,22 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }, 
+                            {
+                                date: '2021-01-29',
+                                content: '헤이즐넛 샷추가 1000원으로 변경'
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '바닐라 샷추가 1000원으로 변경'
+                            },
+                        ]
+                    },
                     name: {
                         KR: '착한 아아(1L)',
                         EN: 'Charming Ame'
@@ -128,12 +161,12 @@ let data = {
                             {
                                 KR: '바닐라 샷 추가',
                                 EN: 'Add Vanilla Shot',
-                                price: 500
+                                price: 1000
                             },
                             {
                                 KR: '헤이즐넛 샷 추가',
                                 EN: 'Add Hazelnut Shot',
-                                price: 500
+                                price: 1000
                             },
                         ],
                     },
@@ -147,6 +180,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '아메리카노 (s)',
                         EN: 'Americano Small'
@@ -186,6 +227,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '카페라떼',
                         EN: 'Cafe Latte'
@@ -249,6 +298,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '플랫화이트',
                         EN: 'Flat White'
@@ -302,6 +359,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '달고나라떼',
                         EN: 'Dalgona Latte'
@@ -365,6 +430,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '바닐라라떼',
                         EN: 'Vanilla Latte'
@@ -423,6 +496,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '헤이즐넛라떼',
                         EN: 'Hazelnut Latte'
@@ -481,6 +562,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '돌체(연유) 라떼',
                         EN: 'Dolce Latte'
@@ -534,6 +623,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '카푸치노',
                         EN: 'Cappucino'
@@ -577,6 +674,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '카라멜마끼아또',
                         EN: 'Caramel Macchiato'
@@ -620,6 +725,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '카페모카',
                         EN: 'Cafe Mocha'
@@ -673,6 +786,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '화이트초콜릿모카',
                         EN: 'White Chocolate Mocha'
@@ -726,6 +847,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '아인슈패너',
                         EN: 'Einspanner'
@@ -769,6 +898,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '아포가토',
                         EN: 'Affogato'
@@ -814,13 +951,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '핸드드립 커피 4500원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '핸드드립 커피',
                         EN: 'Handdrip Coffee'
                     },
                     price: {
-                        hot: 3900,
-                        ice: 4400
+                        hot: 4500,
+                        ice: 4500
                     },
                     menuOptions: {
                         extra: [
@@ -866,13 +1015,25 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '유자차',
                         EN: 'Yuja Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -897,13 +1058,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '레몬차',
                         EN: 'Lemon Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -928,13 +1101,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '자몽차',
                         EN: 'Grapefruit Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -959,13 +1144,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '청귤차',
                         EN: 'Green Tangereen Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -990,13 +1187,103 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '유자레몬차',
+                        EN: 'Yuja Lemon Tea'
+                    },
+                    price: {
+                        hot: 4300,
+                        ice: 4800
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000,
+                    },
+                    picture: {
+                        hot: false,
+                        ice: false
+                    },
+                    detials: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '라임차',
+                        EN: 'Lime Tea'
+                    },
+                    price: {
+                        hot: 4300,
+                        ice: 4800
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000,
+                    },
+                    picture: {
+                        hot: false,
+                        ice: false
+                    },
+                    detials: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '꿀대추차',
                         EN: 'Honey Jujube Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -1021,13 +1308,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '꿀모과차',
                         EN: 'Honey Quince Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -1052,13 +1351,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '꿀생강차',
                         EN: 'Honey Ginger Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -1083,13 +1394,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '제주한라봉차',
                         EN: 'Jeju Hallabong Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -1114,13 +1437,25 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '4300원으로 가격 변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '견과율무차',
                         EN: 'Nuts Adlay Tea'
                     },
                     price: {
-                        hot: 3800,
-                        ice: 4300
+                        hot: 4300,
+                        ice: 4800
                     },
                     menuOptions: {
                         cup: [
@@ -1145,6 +1480,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '속삭임 국화차',
                         EN: 'Whispering Chrysanthemum Tea'
@@ -1176,12 +1519,29 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '쌍화차로 이름 수정',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: 'ice 추가',
+                            },
+                        ]
+                    },
                     name: {
-                        KR: '쌍화대추차',
-                        EN: 'Whispering Chrysanthemum Tea'
+                        KR: '쌍화차',
+                        EN: 'SSanghwa Tea'
                     },
                     price: {
                         hot: 6000,
+                        ice: 6500
                     },
                     menuOptions: {
                         cup: [
@@ -1214,6 +1574,14 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '딸기라떼',
                         EN: 'Strawberry Latte'
@@ -1265,6 +1633,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '초코라떼',
                         EN: 'Chocolate Latte'
@@ -1318,6 +1694,75 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '화이트초코라떼',
+                        EN: 'White Chocolate Latte'
+                    },
+                    price: {
+                        hot: 3900,
+                        ice: 4400
+                    },
+                    menuOptions: {
+                        extra: [
+                            {
+                                KR: '에스프레소 샷 추가',
+                                EN: 'Add Espresso Shot',
+                                price: 500
+                            },
+                            {
+                                KR: '우유 추가',
+                                EN: 'Add Milk',
+                                price: 500
+                            },
+                            {
+                                KR: '화이트 펄 추가',
+                                EN: 'Add White Perl',
+                                price: 500
+                            },
+                            {
+                                KR: '블랙 펄 추가',
+                                EN: 'Add Black Perl',
+                                price: 500
+                            },
+                        ],
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        hot: false,
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '민트초코라떼',
                         EN: 'Mint-Choco Latte'
@@ -1371,6 +1816,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '말차라떼',
                         EN: 'Green Tea Latte'
@@ -1424,6 +1877,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '오곡라떼',
                         EN: 'Grain Latte'
@@ -1477,6 +1938,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '토피넛 라떼',
                         EN: 'ToffeeNut Latte'
@@ -1530,6 +1999,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '달고나밀크',
                         EN: 'Dalgona Milk'
@@ -1583,6 +2060,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '군고구마라떼',
                         EN: 'Roasted Sweet Potato Latte'
@@ -1636,6 +2121,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '바밤바라떼',
                         EN: 'Babamba Latte'
@@ -1689,6 +2182,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '밀크카라멜라떼',
                         EN: 'Milk Caramel Latte'
@@ -1743,6 +2244,14 @@ let data = {
                     },
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '흑임자라떼',
                         EN: 'Black Sesame Latte'
@@ -1796,6 +2305,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '견과율무라떼',
                         EN: 'Nuts Adlay Latte'
@@ -1850,6 +2367,14 @@ let data = {
                     },
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '돼지바라떼',
                         EN: 'Pig-bar Latte'
@@ -1901,6 +2426,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '밀크티',
                         EN: 'Milk Tea'
@@ -1954,6 +2487,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '로투스 라떼',
                         EN: 'Lotus Biscoff Latte'
@@ -2016,6 +2557,14 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '허브티',
                         EN: 'Herbal Tea'
@@ -2073,16 +2622,28 @@ let data = {
                     },
                     details: '',
                     status: {
-
+                        wronglyRegistered: true
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '4500원으로 가격 변경',
+                            },
+                        ]
+                    },
                     name: {
                         KR: '리얼아이스티',
                         EN: 'Real Ice Tea'
                     },
                     price: {
-                        ice: 5000
+                        ice: 4500
                     },
                     menuOptions: {
                         taste: [
@@ -2150,6 +2711,14 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '얼그레이 버블티',
                         EN: 'Earl Gray Bubble Tea'
@@ -2211,6 +2780,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '흑당 버블티',
                         EN: 'Brown Sugar Bubble Tea'
@@ -2281,6 +2858,18 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '맛 추가: 제주한라봉에이드',
+                            },
+                        ]
+                    },
                     name: {
                         KR: '에이드',
                         EN: 'ADE'
@@ -2338,6 +2927,10 @@ let data = {
                                 KR: '라임',
                                 EN: 'Lime'
                             },
+                            {
+                                KR: '제주한라봉',
+                                EN: 'Jeju Hallabong'
+                            }
                         ],
                         extra: [
                             {
@@ -2372,6 +2965,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '모히또',
                         EN: 'Mojito'
@@ -2401,11 +3002,24 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '뱅쇼 hot 추가',
+                            },
+                        ]
+                    },
                     name: {
                         KR: '뱅쇼',
                         EN: 'Vin Chaud'
                     },
                     price: {
+                        hot: 5000,
                         ice: 5500
                     },
                     menuOptions: {
@@ -2430,6 +3044,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '에너지뱅',
                         EN: 'Energy Bang'
@@ -2459,6 +3081,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '커먼유니크 에이드',
                         EN: 'Common Mallow Ade'
@@ -2488,6 +3118,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '코코젤리 사이다',
                         EN: 'COCO-Jelly Soda'
@@ -2526,6 +3164,14 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '밀크 쉐이크',
                         EN: 'Milk Shake'
@@ -2555,6 +3201,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '오레오 쉐이크',
                         EN: 'Oreo Shake'
@@ -2584,6 +3238,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '커피 쉐이크',
                         EN: 'Coffee Shake'
@@ -2613,6 +3275,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '로투스 쉐이크',
                         EN: 'Lotus Biscoff Shake'
@@ -2642,6 +3312,88 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴 추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '군고구마 쉐이크',
+                        EN: 'Roasted Sweet Potato Shake'
+                    },
+                    price: {
+                        ice: 5500
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴 추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '팥빙수 쉐이크',
+                        EN: 'Red Bean Shaved Ice Shake'
+                    },
+                    price: {
+                        ice: 5500
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '바밤바 쉐이크',
                         EN: 'Babamba Shake'
@@ -2671,6 +3423,51 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴 추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '리얼 바나나 쉐이크',
+                        EN: 'Real Banana Shake'
+                    },
+                    price: {
+                        ice: 5800
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '돼지바 쉐이크',
                         EN: 'Pig-bar Shake'
@@ -2700,6 +3497,18 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '맛 추가: 자두, 파인애플, 키위, 제주한라봉',
+                            },
+                        ]
+                    },
                     name: {
                         KR: '요거트 스무디',
                         EN: 'Pig-bar Shake'
@@ -2745,6 +3554,22 @@ let data = {
                                 KR: '레몬',
                                 EN: 'Lemon'
                             },
+                            {
+                                KR: '자두',
+                                EN: 'Plum'
+                            },
+                            {
+                                KR: '키위',
+                                EN: 'Kiwi'
+                            },
+                            {
+                                KR: '파인애플',
+                                EN: 'Pineapple'
+                            },
+                            {
+                                KR: '제주한라봉',
+                                EN: 'Jeju Hallabong'
+                            },
                         ],
                         cup: [
                             {
@@ -2766,6 +3591,80 @@ let data = {
 
                     }
                 },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '흑임자 프라페',
+                        EN: 'Black Sesame Frappé'
+                    },
+                    price: {
+                        ice: 5800
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '딸기 치즈케잌 프라페',
+                        EN: 'StrawBerry Cheese Cake Frappé'
+                    },
+                    price: {
+                        ice: 5900
+                    },
+                    menuOptions: {
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
             ]
         },
         juice: {
@@ -2776,6 +3675,18 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '맛 추가: 키위, 홍시',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '과일 주스',
                         EN: 'Fruit Juice'
@@ -2797,6 +3708,15 @@ let data = {
                                 KR: '복숭아',
                                 EN: 'Peach'
                             },
+                            {
+                                KR: '키위',
+                                EN: 'Kiwi'
+                            },
+                            {
+                                KR: '홍시 (추가금액)',
+                                EN: 'Hongsi',
+                                price: 500
+                            },
                         ],
                         cup: [
                             {
@@ -2819,6 +3739,14 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '리얼 베리 주스',
                         EN: 'Real Berry Juice'
@@ -2862,17 +3790,26 @@ let data = {
                     }
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date: '2021-01-29',
+                                content: '가격변경'
+                            }
+                        ]
+                    },
                     name: {
                         KR: '딸기바나나 주스',
                         EN: 'Strawberry Banana Juice'
                     },
                     price: {
-                        ice: 5000
+                        ice: 5500
                     },
                     menuOptions: {
-                        taste: [
-                            
-                        ],
                         cup: [
                             {
                                 KR: '유리컵',
@@ -2906,6 +3843,14 @@ let data = {
             delivery: true,
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '클래식 빙수',
                         EN: 'Classic'
@@ -2939,6 +3884,14 @@ let data = {
                     packing: 500
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '망고치즈큐브 빙수',
                         EN: 'Mango Cheese Cube'
@@ -2980,6 +3933,14 @@ let data = {
             },
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '대만 샌드위치',
                         EN: 'Taiwan Sandwich'
@@ -3013,6 +3974,74 @@ let data = {
                     delivery: true,
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '카테고리: 디저트 에서 카테고리: 브런치 로 옮김',
+                            },
+                        ]
+                    },
+                    name: {
+                        KR: '크로크무슈',
+                        EN: 'Croque Monsieur'
+                    },
+                    price: {
+                        meal: 4800
+                    },
+                    menuOptions: {
+
+                    },
+                    picture: {
+                        meal: false
+                    },
+                    details: '',
+                    status: {
+                        
+                    },
+                    delivery: true
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-29',
+                                content: '메뉴추가',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '고암길 떡볶이',
+                        EN: 'Goamgil Tteokbokki'
+                    },
+                    price: {
+                        meal: 9900
+                    },
+                    menuOptions: {
+                        
+                    },
+                    picture: {
+                        meal: false
+                    },
+                    details: '',
+                    status: {
+                        
+                    },
+                    delivery: true,
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '새우볶음밥',
                         EN: 'Shrimp Fried Rice'
@@ -3055,6 +4084,14 @@ let data = {
                     naverNotActivated: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '햄야채볶음밥',
                         EN: 'Ham Vegetable Fried Rice'
@@ -3097,6 +4134,14 @@ let data = {
                     naverNotActivated: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '김치볶음밥',
                         EN: 'Kimchi Fried Rice'
@@ -3138,6 +4183,14 @@ let data = {
                     naverNotActivated: true,
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '고암길 샐러드',
                         EN: 'Goamgil Salad'
@@ -3168,6 +4221,14 @@ let data = {
                     packing: 500
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '숭늉누룽지',
                         EN: 'Sungnyung Nurungji'
@@ -3197,6 +4258,14 @@ let data = {
             // TODO details 작업하기
             items: [
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '고암길 토스트',
                         EN: 'Goamgil Toast'
@@ -3218,6 +4287,14 @@ let data = {
                     notForPacking: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '플레인 크로플 (1pc)',
                         EN: 'Plain Cropple (1pc)'
@@ -3245,6 +4322,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '플레인 크로플 (2pc)',
                         EN: 'Plain Cropple (2pc)'
@@ -3272,6 +4357,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '바닐라 크로플 (2pc)',
                         EN: 'Vanilla Cropple (2pc)'
@@ -3306,6 +4399,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '티라미수 크로플 (2pc)',
                         EN: 'Tiramisu Cropple (2pc)'
@@ -3340,6 +4441,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '빅머핀',
                         EN: 'Big Muffin'
@@ -3373,6 +4482,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '미니 머핀',
                         EN: 'Mini Muffin'
@@ -3410,6 +4527,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '떠먹는 티라미수',
                         EN: 'Handmade Tiramisu'
@@ -3430,6 +4555,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '제리치즈케이크',
                         EN: 'Jerry Cheese Cake'
@@ -3457,6 +4590,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '초코브라우니퍼지',
                         EN: 'Choco Brownie Fuzzy'
@@ -3484,6 +4625,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '아보카도 케이크',
                         EN: 'Avocado Cake'
@@ -3511,6 +4660,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '생크림 카스테라',
                         EN: 'Cream Castella'
@@ -3531,6 +4688,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '허니브레드',
                         EN: 'Honey Bread'
@@ -3551,26 +4716,14 @@ let data = {
                     delivery: true
                 },
                 {
-                    name: {
-                        KR: '크로크무슈',
-                        EN: 'Croque Monsieur'
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
                     },
-                    price: {
-                        dessert: 4800
-                    },
-                    menuOptions: {
-
-                    },
-                    picture: {
-                        dessert: false
-                    },
-                    details: '',
-                    status: {
-                        
-                    },
-                    delivery: true
-                },
-                {
                     name: {
                         KR: '치즈케이크',
                         EN: 'Cheese Cake'
@@ -3598,6 +4751,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '쿠키앤크림 케이크',
                         EN: 'Cookie&Cream Cake'
@@ -3625,6 +4786,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '깔루아마끼아또 케이크',
                         EN: 'Kahlua Macchiato Cake'
@@ -3652,6 +4821,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '미니 케이크',
                         EN: 'Mini Cake'
@@ -3697,6 +4874,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '초코 브라우니 (1pc)',
                         EN: 'Chocolate Brownie (1pc)'
@@ -3717,6 +4902,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '초코 브라우니 (2pc)',
                         EN: 'Chocolate Brownie (2pc)'
@@ -3737,6 +4930,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '나무꾼 케이크',
                         EN: 'Lumberjack Cake'
@@ -3757,6 +4958,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '수제쿠키',
                         EN: 'Hand-made cookie'
@@ -3786,6 +4995,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '바삭 마늘 바게트',
                         EN: 'Basak Garlic Baguette'
@@ -3806,6 +5023,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '말렌카 허니케이크',
                         EN: 'Marlenka Cake'
@@ -3835,6 +5060,14 @@ let data = {
                     delivery: true
                 },
                 {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-23',
+                                content: '처음작성',
+                            }
+                        ]
+                    },
                     name: {
                         KR: '베이글+크림치즈',
                         EN: 'Bagel+Cream Cheese'
