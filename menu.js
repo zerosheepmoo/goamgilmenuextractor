@@ -2308,6 +2308,67 @@ let data = {
                     log: {
                         timeStamps: [
                             {
+                                date:'2021-01-29',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '인절미 라떼',
+                        EN: 'Injeolmi Latte'
+                    },
+                    price: {
+                        hot: 4400,
+                        ice: 4900
+                    },
+                    menuOptions: {
+                        extra: [
+                            {
+                                KR: '에스프레소 샷 추가',
+                                EN: 'Add Espresso Shot',
+                                price: 500
+                            },
+                            {
+                                KR: '우유 추가',
+                                EN: 'Add Milk',
+                                price: 500
+                            },
+                            {
+                                KR: '화이트 펄 추가',
+                                EN: 'Add White Perl',
+                                price: 500
+                            },
+                            {
+                                KR: '블랙 펄 추가',
+                                EN: 'Add Black Perl',
+                                price: 500
+                            },
+                        ],
+                        cup: [
+                            {
+                                KR: '유리컵',
+                                EN: 'Glass'
+                            },
+                            {
+                                KR: '일회용컵',
+                                EN: 'Disposable Cup'
+                            }
+                        ],
+                        sizeUp: 1000
+                    },
+                    picture: {
+                        hot: false,
+                        ice: false
+                    },
+                    details: '',
+                    status: {
+
+                    }
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
                                 date:'2021-01-23',
                                 content: '처음작성',
                             }
@@ -3889,6 +3950,10 @@ let data = {
                             {
                                 date:'2021-01-23',
                                 content: '처음작성',
+                            },
+                            {
+                                date:'2021-01-29',
+                                content: '맛 선택: 지움',
                             }
                         ]
                     },
@@ -3900,20 +3965,6 @@ let data = {
                         ice: 10900
                     },
                     menuOptions: {
-                        taste: [
-                            {
-                                KR: '인절미',
-                                EN: 'Injeolmi'
-                            },
-                            {
-                                KR: '찹쌀떡',
-                                EN: 'Glutinous Rice Cake'
-                            },
-                            {
-                                KR: '치즈',
-                                EN: 'Cheese'
-                            },
-                        ]
                     },
                     picture: {
                         ice: true
