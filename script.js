@@ -30,12 +30,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let b4 = document.getElementById('to-menu-manage');
 
     b1.addEventListener('click', function() {
-        view.memo.erase();
-        view.draw()
+        if(!view.isOpen) {
+            view.memo.erase();
+            view.draw()
+        }
     });
     b2.addEventListener('click', function() {
-        view.erase();
-        view.memo.draw();
+        if (!view.memo.isOpen) {
+            view.erase();
+            view.memo.draw();
+        }
     });
     b3.addEventListener('click', function() {
         if (textMemo.isOpen) {
