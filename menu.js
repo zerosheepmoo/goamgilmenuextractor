@@ -5159,6 +5159,62 @@ let data = {
                     },
                     delivery: true
                 },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-30',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '미니 크로와상(3pc)',
+                        EN: 'Mini Croissant(3pc)'
+                    },
+                    price: {
+                        dessert: 2000
+                    },
+                    menuOptions: {
+                        
+                    },
+                    picture: {
+                        dessert: true
+                    },
+                    details: '결 사이로 버터의 풍미가 가득한 겉바속촉의 페스트리 크로아상',
+                    status: {
+                        
+                    },
+                    delivery: true
+                },
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-01-30',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '프리미엄 크로와상(1pc)',
+                        EN: 'Premium Croissant(1pc)'
+                    },
+                    price: {
+                        dessert: 1800
+                    },
+                    menuOptions: {
+                        
+                    },
+                    picture: {
+                        dessert: true
+                    },
+                    details: '결 사이로 버터의 풍미가 가득한 겉바속촉의 페스트리 크로아상',
+                    status: {
+                        
+                    },
+                    delivery: true
+                },
             ]
         }
     }
