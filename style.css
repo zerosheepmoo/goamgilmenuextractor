@@ -232,11 +232,10 @@
     cursor: pointer;
     /* box-sizing: initial; */
     font-family: TmoneyRoundWindRegular;
-    font-size: small;
+    
     padding: 1px 6px;
     border-width: 2px;
     border-style: groove;
-    border-image: initial;
 }
 .bm-collapse-button:hover {
     background-color: rgb(54, 54, 54, 70%);
