@@ -222,3 +222,23 @@
 .item-caution {
     background-color: rgb(255, 255, 107);
 }
+
+.bm-collapse-button {
+    /* padding: 3px; */
+    margin-left: 10px;
+    display: inline;
+    margin-bottom: 5px;
+    
+    cursor: pointer;
+    /* box-sizing: initial; */
+    font-family: TmoneyRoundWindRegular;
+    font-size: small;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;
+}
+.bm-collapse-button:hover {
+    background-color: rgb(54, 54, 54, 70%);
+    color: whitesmoke;
+}
