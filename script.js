@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     view.container = 'container';
     view.draw();
     let con = document.getElementById('container');
-    view.memo.container = con;
+    let con2 = document.getElementById('container-2');
+    view.memo.container = con2;
 
     view.memo.registerTimeAlterText('2021-01-23', '메뉴작성');
 
