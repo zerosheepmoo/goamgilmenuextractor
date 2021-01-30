@@ -263,6 +263,15 @@
     color: rgb(0, 24, 70);
 }
 
-body {
-    background-color: rgb(161, 228, 236);
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: whitesmoke;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(161, 228, 236);
+    }
 }
