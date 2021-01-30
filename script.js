@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 
+    b3.click();
 
     window.textMemo = textMemo;
 })
