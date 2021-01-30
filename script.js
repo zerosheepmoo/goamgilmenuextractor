@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
-
+    
     let view = new BaedalView();
     view.data = data;
     view.container = 'container';
     view.draw();
-    let con = document.getElementById('container');
     let con2 = document.getElementById('container-2');
     view.memo.container = con2;
-
+    con2.style.display = 'none'
+    
     view.memo.registerTimeAlterText('2021-01-23', '메뉴작성');
-
+    
     let textMemo = new TextMemo(document.getElementById('text-memo'));
     textMemo.innerHTML = '<h2>도움말(스크롤하세요...)</h2>\
     <p>메뉴의 배경색에 따라 변경된 날짜를 알 수 있습니다!</p>\
@@ -33,12 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
     b1.addEventListener('click', function() {
         if(!view.isOpen) {
             view.memo.erase();
+            con2.style.display = 'none'
             view.draw()
         }
     });
     b2.addEventListener('click', function() {
         if (!view.memo.isOpen) {
             view.erase();
+            con2.style.display = '';
             view.memo.draw();
         }
     });
