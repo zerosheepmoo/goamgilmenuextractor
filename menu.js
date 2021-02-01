@@ -2683,7 +2683,7 @@ let data = {
                     },
                     details: '',
                     status: {
-                        wronglyRegistered: true
+                        
                     }
                 },
                 {
