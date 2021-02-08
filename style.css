@@ -265,13 +265,12 @@
 
 
 @media (max-width: 768px) {
-    
     body {
         background-color: whitesmoke;
     }
 }
 @media (min-width: 768px) {
     body {
-        background-color: rgb(161, 228, 236);
+        background-color: white;
     }
 }
