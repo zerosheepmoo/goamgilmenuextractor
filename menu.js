@@ -3977,6 +3977,77 @@ let data = {
                 },
             ]
         },
+        
+        icecream: {
+            template: {
+                KR: '아이스크림',
+                EN: 'Ice Cream'
+            },
+            items: [
+                {
+                    log: {
+                        timeStamps: [
+                            {
+                                date:'2021-02-08',
+                                content: '새로운 메뉴!',
+                            }
+                        ]
+                    },
+                    name: {
+                        KR: '젤라또 아이스크림',
+                        EN: 'Gelato Ice Cream'
+                    },
+                    price: {
+                        ice: 4000
+                    },
+                    menuOptions: {
+                        taste: [
+                            {
+                                KR: '다크초코',
+                                EN: 'Dark Chocolate'
+                            },
+                            {
+                                KR: '바닐라',
+                                EN: 'Vanilla'
+                            },
+                            {
+                                KR: '딸기',
+                                EN: 'Strawberry'
+                            },
+                            {
+                                KR: '망고',
+                                EN: 'Mango'
+                            },
+                            {
+                                KR: '요거트',
+                                EN: 'Yogurt'
+                            },
+                            {
+                                KR: '달고나',
+                                EN: 'Dalgona'
+                            },
+                            {
+                                KR: '녹차',
+                                EN: 'Green Tea'
+                            },
+                            {
+                                KR: '블루베리',
+                                EN: 'Blueberry'
+                            },
+                        ]
+                    },
+                    picture: {
+                        ice: true
+                    },
+                    details: '',
+                    status: {
+                        
+                    },
+                    packing: 500,
+                    delivery: true,
+                },
+            ]
+        },
         brunch: {
             template: {
                 KR: '브런치',
