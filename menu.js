@@ -3990,6 +3990,10 @@ let data = {
                             {
                                 date:'2021-02-08',
                                 content: '새로운 메뉴!',
+                            },
+                            {
+                                date:'2021-02-18',
+                                content: '가격 & 옵션 수정'
                             }
                         ]
                     },
@@ -4034,6 +4038,17 @@ let data = {
                                 KR: '블루베리',
                                 EN: 'Blueberry'
                             },
+                        ],
+                        extra: [
+                            {
+                                KR: '없음',
+                                EN: 'nothing',
+                            },
+                            {
+                                KR: '보냉팩',
+                                EN: 'Ice pack',
+                                price: 500
+                            },
                         ]
                     },
                     picture: {
@@ -4043,7 +4058,6 @@ let data = {
                     status: {
                         
                     },
-                    packing: 500,
                     delivery: true,
                 },
             ]
